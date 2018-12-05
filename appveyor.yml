@@ -5,7 +5,7 @@ image: WMF 5
 #environment:
 #  - CODECOV_TOKEN: 9f66b846-e52f-4554-9aa4-e87fae3dc466
 
-build:
+build: false
   - verbosity: minimal
 
 install:
