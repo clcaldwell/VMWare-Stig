@@ -12,7 +12,7 @@ install:
   - ps: Install-Module -Name Pester, PSScriptAnalyzer, PlatyPS -Confirm:$false -Force -ErrorAction SilentlyContinue | Out-Null
 
 skip_commits:
-  - message: /update readme.*/
+  message: /update readme.*/
 
 build_script:
   - ps: . ./build/build.ps1
