@@ -2,8 +2,8 @@ version: 1.0.{build}
 
 image: WMF 5
 
-environment:
-  - CODECOV_TOKEN: 9f66b846-e52f-4554-9aa4-e87fae3dc466
+#environment:
+#  - CODECOV_TOKEN: 9f66b846-e52f-4554-9aa4-e87fae3dc466
 
 build:
   - verbosity: minimal
