@@ -6,7 +6,6 @@ image: WMF 5
 #  - CODECOV_TOKEN: 9f66b846-e52f-4554-9aa4-e87fae3dc466
 
 build: false
-  - verbosity: minimal
 
 install:
   - ps: Install-PackageProvider -Name NuGet -Confirm:$false -Force -ErrorAction Stop | Out-Null
